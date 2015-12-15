@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DAB178001C1C642700DC960E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB177FF1C1C642700DC960E /* AppDelegate.swift */; };
+		DAB178021C1C642700DC960E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB178011C1C642700DC960E /* ViewController.swift */; };
+		DAB178051C1C642700DC960E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB178031C1C642700DC960E /* Main.storyboard */; };
+		DAB178081C1C642700DC960E /* Cart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DAB178061C1C642700DC960E /* Cart.xcdatamodeld */; };
+		DAB1780A1C1C642700DC960E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAB178091C1C642700DC960E /* Assets.xcassets */; };
+		DAB1780D1C1C642700DC960E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAB1780B1C1C642700DC960E /* LaunchScreen.storyboard */; };
+		DAB178181C1C642700DC960E /* CartTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB178171C1C642700DC960E /* CartTests.swift */; };
+		DAB178231C1C642700DC960E /* CartUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB178221C1C642700DC960E /* CartUITests.swift */; };
+		DAB178311C1CEBED00DC960E /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB178301C1CEBED00DC960E /* RatingControl.swift */; settings = {ASSET_TAGS = (); }; };
+		DAB178331C1F53D200DC960E /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB178321C1F53D200DC960E /* Meal.swift */; settings = {ASSET_TAGS = (); }; };
+		DAB178341C1F53D200DC960E /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB178321C1F53D200DC960E /* Meal.swift */; settings = {ASSET_TAGS = (); }; };
+		DAB178351C1F53D200DC960E /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB178321C1F53D200DC960E /* Meal.swift */; settings = {ASSET_TAGS = (); }; };
+		DAB178371C1F7A0600DC960E /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB178361C1F7A0600DC960E /* MealTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		DAB1783A1C1FAC4600DC960E /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB178381C1FAC4600DC960E /* MealTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DAB1783B1C1FAC4600DC960E /* MealTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAB178391C1FAC4600DC960E /* MealTableViewController.xib */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAB178141C1C642700DC960E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB177F41C1C642700DC960E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB177FB1C1C642700DC960E;
+			remoteInfo = Cart;
+		};
+		DAB1781F1C1C642700DC960E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAB177F41C1C642700DC960E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAB177FB1C1C642700DC960E;
+			remoteInfo = Cart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DAB177FC1C1C642700DC960E /* Cart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB177FF1C1C642700DC960E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAB178011C1C642700DC960E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAB178041C1C642700DC960E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAB178071C1C642700DC960E /* Cart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cart.xcdatamodel; sourceTree = "<group>"; };
+		DAB178091C1C642700DC960E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAB1780C1C1C642700DC960E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAB1780E1C1C642700DC960E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB178131C1C642700DC960E /* CartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB178171C1C642700DC960E /* CartTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTests.swift; sourceTree = "<group>"; };
+		DAB178191C1C642700DC960E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB1781E1C1C642700DC960E /* CartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAB178221C1C642700DC960E /* CartUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartUITests.swift; sourceTree = "<group>"; };
+		DAB178241C1C642700DC960E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAB178301C1CEBED00DC960E /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		DAB178321C1F53D200DC960E /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		DAB178361C1F7A0600DC960E /* MealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		DAB178381C1FAC4600DC960E /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		DAB178391C1FAC4600DC960E /* MealTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MealTableViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAB177F91C1C642700DC960E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB178101C1C642700DC960E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB1781B1C1C642700DC960E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAB177F31C1C642700DC960E = {
+			isa = PBXGroup;
+			children = (
+				DAB177FE1C1C642700DC960E /* Cart */,
+				DAB178161C1C642700DC960E /* CartTests */,
+				DAB178211C1C642700DC960E /* CartUITests */,
+				DAB177FD1C1C642700DC960E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAB177FD1C1C642700DC960E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAB177FC1C1C642700DC960E /* Cart.app */,
+				DAB178131C1C642700DC960E /* CartTests.xctest */,
+				DAB1781E1C1C642700DC960E /* CartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAB177FE1C1C642700DC960E /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				DAB177FF1C1C642700DC960E /* AppDelegate.swift */,
+				DAB178011C1C642700DC960E /* ViewController.swift */,
+				DAB178301C1CEBED00DC960E /* RatingControl.swift */,
+				DAB178031C1C642700DC960E /* Main.storyboard */,
+				DAB178381C1FAC4600DC960E /* MealTableViewController.swift */,
+				DAB178391C1FAC4600DC960E /* MealTableViewController.xib */,
+				DAB178361C1F7A0600DC960E /* MealTableViewCell.swift */,
+				DAB178321C1F53D200DC960E /* Meal.swift */,
+				DAB178091C1C642700DC960E /* Assets.xcassets */,
+				DAB1780B1C1C642700DC960E /* LaunchScreen.storyboard */,
+				DAB1780E1C1C642700DC960E /* Info.plist */,
+				DAB178061C1C642700DC960E /* Cart.xcdatamodeld */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		DAB178161C1C642700DC960E /* CartTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB178171C1C642700DC960E /* CartTests.swift */,
+				DAB178191C1C642700DC960E /* Info.plist */,
+			);
+			path = CartTests;
+			sourceTree = "<group>";
+		};
+		DAB178211C1C642700DC960E /* CartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAB178221C1C642700DC960E /* CartUITests.swift */,
+				DAB178241C1C642700DC960E /* Info.plist */,
+			);
+			path = CartUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAB177FB1C1C642700DC960E /* Cart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB178271C1C642700DC960E /* Build configuration list for PBXNativeTarget "Cart" */;
+			buildPhases = (
+				DAB177F81C1C642700DC960E /* Sources */,
+				DAB177F91C1C642700DC960E /* Frameworks */,
+				DAB177FA1C1C642700DC960E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cart;
+			productName = Cart;
+			productReference = DAB177FC1C1C642700DC960E /* Cart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAB178121C1C642700DC960E /* CartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB1782A1C1C642700DC960E /* Build configuration list for PBXNativeTarget "CartTests" */;
+			buildPhases = (
+				DAB1780F1C1C642700DC960E /* Sources */,
+				DAB178101C1C642700DC960E /* Frameworks */,
+				DAB178111C1C642700DC960E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB178151C1C642700DC960E /* PBXTargetDependency */,
+			);
+			name = CartTests;
+			productName = CartTests;
+			productReference = DAB178131C1C642700DC960E /* CartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAB1781D1C1C642700DC960E /* CartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAB1782D1C1C642700DC960E /* Build configuration list for PBXNativeTarget "CartUITests" */;
+			buildPhases = (
+				DAB1781A1C1C642700DC960E /* Sources */,
+				DAB1781B1C1C642700DC960E /* Frameworks */,
+				DAB1781C1C1C642700DC960E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAB178201C1C642700DC960E /* PBXTargetDependency */,
+			);
+			name = CartUITests;
+			productName = CartUITests;
+			productReference = DAB1781E1C1C642700DC960E /* CartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAB177F41C1C642700DC960E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Stefanie Knapp";
+				TargetAttributes = {
+					DAB177FB1C1C642700DC960E = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3N4BUBMU9U;
+					};
+					DAB178121C1C642700DC960E = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3N4BUBMU9U;
+						TestTargetID = DAB177FB1C1C642700DC960E;
+					};
+					DAB1781D1C1C642700DC960E = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 3N4BUBMU9U;
+						TestTargetID = DAB177FB1C1C642700DC960E;
+					};
+				};
+			};
+			buildConfigurationList = DAB177F71C1C642700DC960E /* Build configuration list for PBXProject "Cart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAB177F31C1C642700DC960E;
+			productRefGroup = DAB177FD1C1C642700DC960E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAB177FB1C1C642700DC960E /* Cart */,
+				DAB178121C1C642700DC960E /* CartTests */,
+				DAB1781D1C1C642700DC960E /* CartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAB177FA1C1C642700DC960E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB1780D1C1C642700DC960E /* LaunchScreen.storyboard in Resources */,
+				DAB1780A1C1C642700DC960E /* Assets.xcassets in Resources */,
+				DAB1783B1C1FAC4600DC960E /* MealTableViewController.xib in Resources */,
+				DAB178051C1C642700DC960E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB178111C1C642700DC960E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB1781C1C1C642700DC960E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAB177F81C1C642700DC960E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB178331C1F53D200DC960E /* Meal.swift in Sources */,
+				DAB178311C1CEBED00DC960E /* RatingControl.swift in Sources */,
+				DAB1783A1C1FAC4600DC960E /* MealTableViewController.swift in Sources */,
+				DAB178371C1F7A0600DC960E /* MealTableViewCell.swift in Sources */,
+				DAB178021C1C642700DC960E /* ViewController.swift in Sources */,
+				DAB178081C1C642700DC960E /* Cart.xcdatamodeld in Sources */,
+				DAB178001C1C642700DC960E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB1780F1C1C642700DC960E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB178341C1F53D200DC960E /* Meal.swift in Sources */,
+				DAB178181C1C642700DC960E /* CartTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAB1781A1C1C642700DC960E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAB178351C1F53D200DC960E /* Meal.swift in Sources */,
+				DAB178231C1C642700DC960E /* CartUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAB178151C1C642700DC960E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB177FB1C1C642700DC960E /* Cart */;
+			targetProxy = DAB178141C1C642700DC960E /* PBXContainerItemProxy */;
+		};
+		DAB178201C1C642700DC960E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAB177FB1C1C642700DC960E /* Cart */;
+			targetProxy = DAB1781F1C1C642700DC960E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAB178031C1C642700DC960E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB178041C1C642700DC960E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAB1780B1C1C642700DC960E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAB1780C1C1C642700DC960E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAB178251C1C642700DC960E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAB178261C1C642700DC960E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAB178281C1C642700DC960E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Cart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DAB178291C1C642700DC960E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Cart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.Cart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DAB1782B1C1C642700DC960E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cart.app/Cart";
+			};
+			name = Debug;
+		};
+		DAB1782C1C1C642700DC960E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cart.app/Cart";
+			};
+			name = Release;
+		};
+		DAB1782E1C1C642700DC960E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DAB1782F1C1C642700DC960E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Cart;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAB177F71C1C642700DC960E /* Build configuration list for PBXProject "Cart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB178251C1C642700DC960E /* Debug */,
+				DAB178261C1C642700DC960E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAB178271C1C642700DC960E /* Build configuration list for PBXNativeTarget "Cart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB178281C1C642700DC960E /* Debug */,
+				DAB178291C1C642700DC960E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAB1782A1C1C642700DC960E /* Build configuration list for PBXNativeTarget "CartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB1782B1C1C642700DC960E /* Debug */,
+				DAB1782C1C1C642700DC960E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DAB1782D1C1C642700DC960E /* Build configuration list for PBXNativeTarget "CartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAB1782E1C1C642700DC960E /* Debug */,
+				DAB1782F1C1C642700DC960E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DAB178061C1C642700DC960E /* Cart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DAB178071C1C642700DC960E /* Cart.xcdatamodel */,
+			);
+			currentVersion = DAB178071C1C642700DC960E /* Cart.xcdatamodel */;
+			path = Cart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DAB177F41C1C642700DC960E /* Project object */;
+}
